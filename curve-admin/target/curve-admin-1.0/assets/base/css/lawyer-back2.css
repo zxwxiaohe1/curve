@@ -1,0 +1,362 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+/* tuijian-table */
+.w180 { width: 180px; }
+.w640 { width: 640px; }
+.w160 { width: 160px; }
+.tj-table-tit  {
+    height: 38px; line-height: 38px;
+    background-color: #eee;
+    font-size: 14px; color: #333;
+}
+.tj-table-list {
+    height: 110px;
+    background-color: #f8f8f8;    
+    box-shadow: 0 1px 2px rgba(0,0,0,.15); 
+}
+.tj-table-list .w180 {
+     width: 120px; 
+     padding:15px 35px 15px 25px;
+}
+.tj-table-list .tj-table-tag {
+    height: 22px; line-height: 22px;
+    background-color: #666;
+    color: #fff; text-align: center;
+}
+.tj-table-list .w640 {
+     width: 580px; 
+     padding:15px 40px 0 20px;
+    font-size: 14px; line-height: 28px;
+    height: 84px; overflow: hidden;
+    color: #333;
+}
+.tj-table-btn {
+    display: block;
+    height: 110px; line-height: 110px;
+    font-size: 16px; color: #fff; text-align: center;
+}
+.tj-table-btn:hover { color: #fff; }
+.tj-table-btn-oe { background-color: #f25618; }
+.tj-table-btn-gn { background-color: #11c174; }
+.tj-table-btn-yw { background-color: #ffc169; }
+.tj-table-btn-gy { background-color: #ddd; }
+
+/* notice-bar */
+.notice-bar {
+    position: relative;
+    width: 460px; padding-left:30px;
+    height: 20px; line-height: 20px;
+    overflow: hidden;
+}
+.notice-bar .i-evo6 {
+    position: absolute;
+    left: 0; top: 0;
+}
+ .notice-list {
+     position: absolute;
+     left: 30px; top:0;
+     font-size: 14px;
+     color: #027442;
+}
+.notice-list li {
+    height: 20px; overflow: hidden;
+}
+.notice-list a, 
+.notice-list a:hover {
+    color:#027442;
+    text-decoration: underline!important;
+}
+
+/**/
+.yonghu-bar {
+    height: 100px;
+    margin: 40px 0; 
+}
+.yonghu-bar img {
+    float: left;
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    margin-right: 20px;
+}
+.la-list5-lh20 li { line-height: 20px; }
+.tag-look {
+    display: inline-block;
+    padding: 0 3px;
+    height: 16px; line-height: 16px;
+    background-color: #ff9600;
+    font-size: 12px; color: #fff;
+}
+
+/**/
+.case-set {
+    height: 38px; line-height: 38px;
+    padding: 41px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15); 
+}
+.case-set .btn {
+    width: 113px;
+    height: 36px; line-height: 36px;
+    padding: 0; border-width: 1px;
+    text-align: center;
+}
+.case-set .btn-oe {
+    background: none;
+    border-color: #f25618;
+    color: #f25618;
+}
+.case-set .btn-oe:hover {
+    background-color:#f25618;
+    color: #fff;
+}
+
+/**/
+.case-h22 {
+    height: 22px;
+    line-height: 22px;
+}
+.case-h22 .btn {
+    padding: 0;
+    width: 56px;
+    height: 18px; line-height: 18px;
+    font-size: 12px; text-align: center;
+}
+
+/**/
+.case-step {
+    margin-left: 23px;
+    border-left: 2px solid #ddd;
+}
+.case-step-list {
+    position: relative;
+    left: -24px;
+    height: 48px;
+}
+.case-step-list em {
+    float: left;
+    width: 48px; height: 48px;
+    background-color: #61d271;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.case-step-list em.case-step-oe { background-color: #ffb74d; }
+.case-step-list em i { float: left; }
+.case-step-list .f14 { padding-top: 3px; }
+.case-step-list .s-c999 { margin-top: 3px; }
+
+/**/
+.popup-evolve {
+    position: fixed;
+    left: 50%; top: 50%;
+    width: 560px;
+    padding: 0 40px;
+    background-color: #fff;
+    box-shadow: 5px 2px 20px rgba(0,0,0,.2);
+    z-index: 1002;
+}
+.popup-evolve-title {
+    height: 87px; line-height: 87px;
+    border-bottom: 1px dashed #eee;
+    font-size: 16px; color: #999;
+}
+.popup-evolve .m-form-lr li { padding-left: 105px; }
+.popup-evolve .m-form-lr li label { width: 100px; }
+    /* 下拉框 */
+.u-pn-w74, 
+.u-pn-w74 .pn-ct,
+.u-pn-w74.u-pn-click .pn-ct { width: 74px; }
+.u-pn-w74.u-pn-hover,
+.u-pn-w74.u-pn-hover .pn-ct { width: 72px; }
+.u-pn-w74.u-pn-click { width: 76px; }
+.popup-evolve .pn-more li { padding: 0 10px!important; }
+    /**/
+.popup-evolve .u-fm { width: 432px; }
+.popup-evolve .u-fd {
+    height: 96px;
+    resize: none;
+}
+.popup-evolve .btn { border-width: 1px; }
+.popup-evolve .btn-blue {
+    width: 134px;
+    padding: 0; text-align: center;
+    background-color: #222f46;
+    border-color: #222f46;
+    color: #fff;
+}
+.popup-evolve .btn-blue:hover {
+    background-color: #2a4067;
+    color: #fff;
+}
+
+/**/
+.jieqia-bar {
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+}
+.jieqia-bar .h38 { 
+    height: 38px; line-height: 38px;
+}
+.jieqia-bar .btn-disabled {
+    background-color: #999;
+    border-color: #999;
+}
+
+/**/
+.baogao-bar {
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+.baogao {
+    padding: 0 60px 60px;
+    background-color: #f8f8f8;
+}
+.baogao-title {
+    height: 90px; line-height: 90px;
+    border-bottom: 1px solid #eee;
+    font-size: 30px; color: #333; text-align: center;
+}
+.baogao-list  li {
+    position: relative;
+    margin-top: 30px;
+}
+.baogao-list-tit {
+    position: relative; 
+    height: 20px;
+}
+.baogao-list-tit .i-evo8 {
+    padding-left: 3px;
+    width: 44px; height: 18px; line-height: 18px;
+    text-align: center; color: #fff;
+    margin-top: 1px;
+    cursor: default;
+}
+.baogao-tips {
+    position: absolute;
+    left: 0; bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.3);
+}
+.baogao-tips-nr {
+    padding: 25px 30px;
+    font-size: 14px; line-height: 28px; color: #666;
+}
+.baogao-tips-nr .arrow {
+    position: absolute;
+    left: 108px; bottom: -14px;
+    border-width: 7px;
+    border-top-color: #fff;
+}
+.baogao-list .u-fd {
+    resize: none;
+    line-height: 24px;
+    background-color: #fff;
+}
+
+
+/* 2015-12-30 */
+
+.audit-oe { color:#fff; background:#ffc169; }
+.la-list10 dt { 
+    padding:19px 0;
+    background-color:#fff;
+    border-bottom:1px dashed #eee;
+    font-size:14px; text-align:center;
+}
+.la-list10 .w305 { 
+    width:305px; height:20px;
+    overflow:hidden;
+}
+.la-list10 .w160 {
+    height:20px;
+    overflow:hidden;
+}
+
+.pop-case {
+    width:1120px;
+    padding:80px 40px 40px; margin-left:-600px;
+    background:#fff;
+}
+.pop-case .pop-btn {
+    position:absolute; top:50px; right:-50px;
+}
+.pop-case .pop-btn a {
+    display:block;
+    width:50px; height:50px; line-height:50px;
+    background-color:#434343;
+    text-align:center;
+}
+.pop-case .pop-btn a i { *margin-top:18px; }
+.pop-case .pop-btn a:hover { background-color:#000; }
+.case-img { padding-left:60px; }
+.case-img img { display:block; width:140px; height:140px; margin-bottom:10px; }
+
+.u-810 .u-tx { width: 788px; }
+.u-810 .u-fm-focus, .u-810 .u-fm-error {
+	padding:9px 9px;
+    height:14px;
+}
+.u-810 .u-fd {
+	width:788px; 
+	min-height:126px; _height:126px; 
+	overflow:hidden;
+    line-height:24px;
+}
+.u-810 .u-fd.u-fm-focus, .u-810 .u-fd.u-fm-error {
+    padding: 10px 9px;
+}
+.h100 .u-fd { min-height:76px; _height:76px; }
+
+.u-sn {
+    position: relative;
+    padding: 0 56px 0 20px; margin-right:20px; margin-bottom:10px;
+    height: 36px; line-height: 36px;
+    font-size:14px;
+    background-color:#eee;
+    color: #666;
+    white-space:nowrap;
+}
+.u-sn span {
+    position: absolute; top: 0; right: 0;
+    padding:10px;
+    width: 16px; height: 16px;
+    text-align: center;
+    background-color:#bbb;
+    cursor:pointer;
+}
+.u-sn:hover { color: #666; }
+.u-sn:hover span { background-color: #f25618; }
+
+
+/*share*/
+.bdshare-button-style0-32 a {
+    width:36px!important;
+    line-height:36px!important;
+    height:36px!important;
+    background:url(../images/lawyer-backstage/share.gif) no-repeat!important;
+    margin:0 17px 0 0!important;
+}
+.bdshare-button-style0-32 .bds_sqq { background-position: 0 0!important; }
+.bdshare-button-style0-32 .bds_weixin { background-position: -56px 0!important; }
+.bdshare-button-style0-32 .bds_tsina { background-position: -112px 0!important; }
+.bdshare-button-style0-32 .bds_tqq { background-position: -167px 0!important; margin-right:0!important;  }
+
+
+/**/
+
+.rule-step {
+    position:absolute; right:0; top:0;
+}
+.rule-pop {
+    position:absolute; right:0; top:25px;
+    padding:40px 50px;
+    width:880px;
+    text-align:center;
+    background-color:#fff;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+.rule-pop .bort1 { border-top:1px solid #eee; }

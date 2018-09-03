@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.curve.modules.comm.dao.UserDao">
+
+	<resultMap id="userResult" type="User">
+		<id property="id" column="id" />
+		<id property="loginName" column="login_name" />
+		<id property="password" column="password" />
+		<id property="name" column="name" />
+		<id property="sex" column="sex" />
+		<id property="email" column="email" />
+		<id property="phone" column="phone" />
+		<id property="loginDate" column="login_date" />
+		<id property="createDate" column="create_date" />
+		<id property="createById" column="create_by" />
+		<id property="updateDate" column="update_date" />
+		<id property="updateById" column="update_by" />
+		<id property="remarks" column="remarks" />
+		<id property="delFlag" column="del_flag" />
+	</resultMap>
+	<sql id="userColumns">
+		a.id,
+		a.login_name,
+		a.password,
+		a.name,
+		a.email,
+		a.phone,
+		a.sex,
+		a.login_date,
+		a.create_date,
+		a.create_by,
+		a.update_date,
+		a.update_by,
+		a.remarks,
+		a.del_flag
+	</sql>
+	<select id="get" resultMap="userResult">
+		SELECT
+		<include refid="userColumns"/>
+		FROM user a
+		WHERE a.id = #{id}
+	</select>
+	<select id="getByLoginName" resultMap="userResult">
+		SELECT
+		<include refid="userColumns"/>
+		FROM user a
+		WHERE a.login_name = #{loginName}
+	</select>
+	<select id="getByLoginNameAndPassword" resultMap="userResult">
+		SELECT
+		<include refid="userColumns"/>
+		FROM user a
+		WHERE a.login_name = #{loginName}
+		AND a.password = #{password}
+	</select>
+	<select id="findUserByMemoryTask" resultMap="userResult">
+		SELECT
+		<include refid="userColumns"/>
+		FROM user a
+		WHERE a.id = (
+		        SELECT user_id
+		        FROM user_memory_task
+		        WHERE memoryTask_id=#{id})
+	</select>
+	<select id="findUsersNoticeSpecial" resultMap="userResult">
+		SELECT
+		<include refid="userColumns"/>
+		FROM user a
+		WHERE a.del_flag = #{DEL_FLAG_NORMAL}
+	</select>
+	<insert id="insert">
+		INSERT INTO user(
+		id,
+		login_name,
+		password,
+		name,
+		email,
+		phone,
+		sex,
+		login_date,
+		create_date,
+		create_by,
+		update_date,
+		update_by,
+		remarks,
+		del_flag
+		) VALUES (
+		#{id},
+		#{loginName},
+		#{password},
+		#{name},
+		#{email},
+		#{phone},
+		#{sex},
+		#{loginDate},
+		#{createDate},
+		#{createById},
+		#{updateDate},
+		#{updateById},
+		#{remarks},
+		#{delFlag}
+		)
+	</insert>
+	<insert id="insetUserMemoryTaskConn">
+		INSERT INTO user_memory_task(
+		user_id,
+		memoryTask_id
+		) VALUES (
+		#{user.id},
+		#{id}
+		)
+	</insert>
+</mapper>

@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.f34 { font-size:34px; }
+.lh38 { line-height:38px; }
+.lh24 { line-height:24px; }
+.lh22 { line-height:22px; }
+.s-cfff { color:#fff; }
+.s-cc4f { color:#c4fff0; }
+.s-ccaf { color:#cafed7; }
+.s-c333 { color:#333; }
+.s-c777 { color:#777; }
+.s-c999 { color:#999; }
+.w280 { width:280px; }
+.w900 { width:900px; }
+.tel-bg { background:url(../images/yuyue/tel-bg.png) center top no-repeat; }
+.yuyue-bg { background:url(../images/yuyue/yuyue-bg.png) center top no-repeat; }
+.ty-list {
+    background-color:#f8f8f8;
+    padding:25px 0 40px;
+    min-height:149px; _height:149px;
+    box-shadow:0 1px 2px rgba(0,0,0,.11);
+}
+.ty-list ul { margin-top:80px; }
+.ty-list ul li {
+    float:left;
+    width:280px;
+    padding:0 60px;
+}
+.box-bor1 { border:1px solid #eee; }
+.w60 { width:60px; }
+.w80 { width:80px; }
+.w100 { width:100px; }
+.new-conslut { padding:19px 19px 10px; }
+.n-c-tit {
+    height:28px; line-height:28px;
+    font-size:14px;color:#333;
+    border-bottom:1px solid #eee;
+}
+.n-c-tit span { float:left; }
+.n-c-list li {
+    padding:11px 0;
+    height:20px; line-height:20px;
+    border-bottom:1px dashed #eee;
+    overflow:hidden;
+}
+.n-c-list li span {
+    float:left;
+    height:20px;
+    overflow:hidden;
+}
+.ad img { display:block; }
+.chose-law-tit { padding:19px; border-bottom:1px solid #eee; }
+.chose-law-tit span { color:#bbb; }
+.chose-law ul { padding:19px; }
+.chose-law ul li em {
+    padding-left:7px;
+    width:21px; 
+    height:28px; line-height:28px;
+    font-size:18px; color:#999;
+    font-style:italic;
+    border:1px solid #ccc; border-radius:50%;
+}
+.chose-law ul li span { color:#999; line-height:28px; }
+.u-140 .u-pn { width: 138px; }
+.u-140 .pn-ct { width: 138px; }
+.u-140 .u-pn-hover { width: 136px; height: 34px; }
+.u-140 .u-pn-hover .pn-ct { width:136px; }
+.u-140 .u-pn-click { width: 140px; }
+.u-140 .u-pn-click .pn-ct { width: 138px; }
+
+
+
+.lawyer-list li {
+    padding:30px 19px;
+    height:140px;
+    border-bottom:1px dotted #eee;
+}
+.lawyer-list li.borb0 { border-bottom-color:#fff; }
+.lawyer-list li:hover {
+    padding:28px 17px;
+    border:2px solid #eee;
+    border-bottom-width:3px;
+}
+.lawyer-l-h , .h140 { height:140px; }
+.w150 { width:150px; }
+.h140 { width:700px; }
+.law-info { width:350px; }
+.law-info a.f16 { color:#333;}
+.law-info span.ml10 {
+    padding:0 2px;
+    height:18px; line-height:18px;
+    color:#828fa3;
+    border:1px solid #828fa3;
+}
+
+.law-ensure {  width:200px; }
+.lawyer-list .h20 {
+    height:20px; line-height:20px;
+    overflow:hidden;
+     width:700px; 
+}
+.law-scroll {
+    position:absolute; left:0; top:0;
+}
+.law-scroll p { height:20px; }
+.btn-white {
+    border-color:#fff;
+    height:48px; line-height:48px;
+    font-size:18px;
+    padding:0 120px; 
+    box-shadow:0 1px 3px rgba(0,0,0,0.15); 
+}
+.btn-white:hover {
+    background-color:#01af63;
+	border-color:#01af63;
+	color:#fff;
+}

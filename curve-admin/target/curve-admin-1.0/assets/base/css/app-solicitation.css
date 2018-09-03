@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body { background-color:#fff; }
+.g-ft3 .borb1 {
+    padding:70px 0 60px;
+    border-bottom:1px solid #ddd;
+}
+.g-ft3 .borb1 .ft-major li span {
+    text-align: left;
+    width: 168px;
+    padding-left: 67px; *padding-left:0;
+}
+.content-bar {
+    position:relative; width:100%;
+    background:#00ca64; 
+    background:-ms-linear-gradient(top,#00ca64 28%,#6ee533 91%);        /* IE 10 */
+    background:-moz-linear-gradient(top,#00ca64 28%,#6ee533 91%);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 28%, 0% 91%,from(#00ca64), to(#6ee533));/*谷歌*/ 
+    overflow:hidden;
+}
+.cont-nr {
+    width:1200px;  margin-left:auto; margin-right:auto;
+}
+.cont-nr-r {
+    position:absolute; top:50%; left:50%; margin-left:-600px;
+    width:510px;
+    color:#fff;
+    float:right;
+}
+.cont-nr-r p.tc { width:440px; }
+.cont-nr-r .f54 { 
+    font-size:54px; line-height:60px;
+    text-shadow:0 5px 5px rgba(32,202,104,.28);
+}
+.cont-nr-r .f22 { 
+    font-size:22px; line-height:60px;
+}
+.cont-nr-r .u-btn {
+    display:block;
+    width:286px; height:54px; line-height:54px;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    border:1px solid #fff;
+}
+.cont-nr-r .u-btn:hover {
+    background-color:#fff;
+    color:#0eb51f;
+}
+.cont-nr-r .u-btn.mt10:hover { color:#333; }
+.cont-nr-r .u-btn:hover .i-xc3 { background-position:-300px -40px; }
+.cont-nr-r .u-btn:hover .i-xc4 { background-position:-330px -40px; }
+.cont-nr-l {
+    position:relative;  top:60px; left:150px;
+    float:left;
+    width:360px;
+    padding:106px 25px 107px 26px;
+    background:url(../images/app-solicitation/bg-phone.png) no-repeat;
+}
+.cont-nr-l img { 
+    display:block;
+    width:360px; height:640px;
+}
+.cont-nr-l .ovh {
+    position:relative;
+    width:360px; height:640px;
+    overflow:hidden;
+}
+.cont-nr-l ul  {
+    position:absolute; left:0; top:0;
+    width:1080px;
+}
+.cont-nr-l ul  li { 
+    float:left;
+    width:360px; height:640px;
+}

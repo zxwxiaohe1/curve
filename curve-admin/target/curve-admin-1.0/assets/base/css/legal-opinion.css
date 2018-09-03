@@ -1,0 +1,236 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.ico-legal {
+    display:inline-block;                      
+	vertical-align:middle;                    
+	overflow:hidden;
+    background:url(../images/legal-opinion/ico-legal.png) no-repeat;
+}
+.i-lg1 {
+    width:14px; height:13px;
+    background-position:0 0;
+}
+.i-lg2 {
+    width:10px; height:6px;
+    background-position:0 -15px;
+}
+.i-lg3, .i-lg4, .i-lg5, .i-lg6, .i-lg7, .i-lg8 {
+    width:24px; height:24px;
+}
+.i-lg3 { background-position:-20px 0; }
+.i-lg4 { background-position:-50px 0; }
+.i-lg5 { background-position:-80px 0; }
+.i-lg6 { background-position:-110px 0; }
+.i-lg7 { background-position:-140px 0; }
+.i-lg8 { background-position:-170px 0; }
+.i-lg9, .i-lg10, .i-lg11, .i-lg12 {
+    width:50px; height:50px;
+}
+.i-lg9   { background-position:0 -30px; }
+.i-lg10 { background-position:-50px -30px; }
+.i-lg11 { background-position:-100px -30px; }
+.i-lg12 { background-position:-150px -30px; }
+
+.banner {
+    height:445px; min-width:1200px;
+    background:url(../images/legal-opinion/banner.jpg) center no-repeat;
+    border-bottom:1px solid #f5f5f5;
+}
+.ban-con {
+    padding:250px 0 0 490px;
+}
+.ban-con span { line-height:24px; }
+.ban-con em { line-height:24px; color:#999; }
+.ban-con .btn { padding:0 78px; }
+*html, *html body { background-image:url(about:blank); background-attachment:fixed; }
+.legal-bg {
+    position:fixed; left:0; right:0; top:0; z-index:2000;
+    _position:absolute; _bottom:0; _top:expression(eval(document.documentElement.scrollTop));
+    padding:15px 0;
+    height:38px;
+    background:#fff;
+    border-top:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9; 
+    box-shadow:0 3px 3px rgba(0,0,0,.04);
+}
+.legal-bg span.s-oe { line-height:38px; }
+.legal-nav { margin-top:9px;}
+.legal-nav a {
+    padding:0 40px;
+    height:20px; line-height:20px;
+    border-right:2px solid #e6e6e6;
+    color:#333;
+}
+.legal-nav a.borb0 { border-right:0; }
+.legal-nav a:hover { color:#f25618; }
+.bg-blue { background:#00a7b1; }
+.bgf5 { background:#f5f5f5; }
+.company-intro {
+    padding:78px 60px;
+}
+.company-intro div.fl img { display:block; }
+.w780 { width:780px; }
+.company-intro .w780 p {
+    line-height:26px;
+    color:#ccfcff;
+}
+.company-intro .w780 p a, .company-intro .intro-step { color:#fff; }
+.company-intro .intro-step span { float:left; }
+.company-intro .intro-step em {
+    float:left; margin-top:3px;
+    width:14px; height:14px; line-height:14px;
+    font-size:12px; text-align:center;
+    border:1px solid #fff; border-radius:50%; overflow:hidden;
+}
+.mt60 { margin-top:60px; }
+.pt60 { padding-top:60px; }
+.pb60 { padding-bottom:60px; }
+.legal-tit1 { color:#00a7b1; line-height:28px; }
+.legal-tit2 { color:#fff; line-height:28px; }
+.legal-step { height:130px; }
+.step-line {
+    height:0; line-height:0;
+    border-bottom:3px solid #00a7b1;
+}
+.legal-step ul {
+    top:-10px; *top:-6px; left:6px;
+}
+.legal-step ul  li { 
+    position:relative; margin-right:52px;
+    text-align:center; width:154px; 
+    float:left;
+}
+.legal-step ul  li.mr0 { margin-right:0; }
+.s-blue { color:#00a7b1; }
+.step-pop {
+    display:none;
+    top:120px; left:0;
+    width:152px;
+    border:1px solid #9ac6c9; background:#f5f5f5;
+}
+.legal-step ul .li-hover .step-pop { display:block;}
+.step-pop .i-lg2 {
+    top:-6px; left:50%; margin-left:-5px;
+}
+.step-pop p {
+    padding:9px 10px;
+    height:42px; line-height:22px;
+    font-size:14px; color:#333; text-align:left;
+    border-bottom:1px dashed #00a7b1;
+    overflow:hidden;
+}
+.step-pop div {
+    padding:9px 10px;
+    height:66px; line-height:22px;
+    color:#999; text-align:left;
+    overflow:hidden;
+}
+.legal-policy ul {
+    width:578px;
+    font-size:14px;
+    background:#fff;
+    border:1px solid #9ac6c9; border-bottom:0;
+}
+.legal-policy ul li {
+    position:relative;
+    padding:12px 20px 12px 135px;
+    line-height:24px;
+    border-bottom:1px solid #9ac6c9;
+}
+.legal-policy ul li em.s-blue {
+    position:absolute; left:20px; _left:-115px;
+    width:105px;
+}
+.advantage {
+    padding:0 40px;
+}
+.advantage li {
+    float:left;
+    margin-right:100px;
+    width:205px;
+    text-align:center;
+}
+.advantage li.mr0 { margin-right:0; }
+.advantage li a {
+    display:inline-block;
+    padding:36px;
+    width:50px; height:50px;
+    border:1px solid #31b3ba; border-radius:50%;
+    overflow:hidden;
+    cursor:pointer;
+   -webkit-transition:none;
+       -moz-transition:none;
+         -ms-transition:none;
+                transition:none;
+}
+.advantage li a:hover {
+    background:#fff; border-color:#fff;
+}
+.advantage li a:hover .i-lg9 { background-position:0 -85px; }
+.advantage li a:hover .i-lg10 { background-position:-50px -85px; }
+.advantage li a:hover .i-lg11 { background-position:-100px -85px; }
+.advantage li a:hover .i-lg12 { background-position:-150px -85px; }
+.advantage li p {
+    margin:30px 0 20px;
+    color:#fff;
+    font-size:16px;
+}
+.advantage li div {
+    text-align:left;
+    color:#ccfcff;
+    line-height:24px;
+}
+.b-line {
+    margin-top:85px;
+    height:0; line-height:0;
+    border-bottom:1px solid #ebebeb;
+}
+.legal-case li {
+    float:left;
+    margin-right:37px; margin-top:60px;
+    width:210px; 
+}
+.legal-case li.mr0 { margin-right:0; }
+.legal-case li a.case-img {
+    display:block;
+   padding:16px 1px;
+   height:66px; width:206px;
+   overflow:hidden;
+   border:1px solid #00a7b1;
+   -webkit-transition:none;
+       -moz-transition:none;
+         -ms-transition:none;
+                transition:none;
+}
+.legal-case li a.case-img:hover {
+    padding:15px 0;
+    border-width:2px;
+}
+.legal-evaluate {
+    border-top:1px dashed #dbdbdb;
+}
+.legal-evaluate li {
+    position:relative;
+    padding:30px 30px 30px 135px;
+    min-height:90px; _height:90px; line-height:28px;
+    border-bottom:1px dashed #dbdbdb;
+}
+.legal-evaluate li .cus-photo {
+    position:absolute; left:15px; 
+    display:block;
+    width:88px; height:88px;
+    border:1px solid #06a9b3; border-radius:50%;
+    overflow:hidden;
+}
+.legal-evaluate li .cus-photo img {
+    width:88px; height:88px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.curve.modules.comm.dao.MemoryTaskDao">
+
+	<resultMap id="taskResult" type="MemoryTask">
+		<id property="id" column="id" />
+		<id property="title" column="title" />
+		<id property="content" column="content" />
+		<id property="link" column="link" />
+		<id property="todo" column="todo" />
+		<id property="noticeDate" column="notice_date" />
+		<id property="createDate" column="create_date" />
+		<id property="createById" column="create_by" />
+		<id property="updateDate" column="update_date" />
+		<id property="updateById" column="update_by" />
+		<id property="remarks" column="remarks" />
+		<id property="delFlag" column="del_flag" />
+	</resultMap>
+	<sql id="taskColumns">
+		a.id,
+		a.title,
+		a.content,
+		a.link,
+		a.todo,
+		a.notice_date,
+		a.create_date,
+		a.create_by,
+		a.update_date,
+		a.update_by,
+		a.remarks,
+		a.del_flag
+	</sql>
+	<select id="get" resultMap="taskResult">
+		SELECT
+		<include refid="taskColumns"/>
+		FROM memory_task a
+		WHERE a.id = #{id}
+	</select>
+	<select id="findAllList" resultMap="taskResult">
+		SELECT
+		<include refid="taskColumns"/>
+		FROM memory_task a
+		WHERE a.del_flag = #{DEL_FLAG_NORMAL}
+		ORDER BY a.notice_date ASC
+	</select>
+	<select id="findMinByNoticeDate" resultMap="taskResult">
+		SELECT
+		<include refid="taskColumns"/>
+		FROM memory_task a
+		WHERE a.notice_date = (SELECT min(notice_date)FROM memory_task WHERE a.del_flag = #{DEL_FLAG_NORMAL})
+	</select>
+	<select id="findTop10ByNoticeDate" resultMap="taskResult">
+		SELECT
+		<include refid="taskColumns"/>
+		FROM memory_task a
+		WHERE a.del_flag = #{DEL_FLAG_NORMAL}
+		ORDER BY a.notice_date ASC
+		LIMIT 10
+	</select>
+	<select id="findNoticedTask" resultMap="taskResult">
+		SELECT
+		<include refid="taskColumns"/>
+		FROM memory_task AS a
+		WHERE a.id in (
+		      SELECT noticed_task
+		      FROM noticedTask AS b
+              WHERE notice_time
+		      BETWEEN #{startTime}
+		      AND #{endTime}
+		      AND user_id = #{createById})
+	</select>
+	<insert id="insert">
+		INSERT INTO memory_task(
+		id,
+		title,
+		content,
+		link,
+		todo,
+		notice_date,
+		create_date,
+		create_by,
+		update_date,
+		update_by,
+		remarks,
+		del_flag
+		) VALUES (
+		#{id},
+		#{title},
+		#{content},
+		#{link},
+		#{todo},
+		#{noticeDate},
+		#{createDate},
+		#{createById},
+		#{updateDate},
+		#{updateById},
+		#{remarks},
+		#{delFlag}
+		)
+	</insert>
+	<insert id="insetNoticedTask">
+		INSERT INTO noticedTask(
+		noticed_task,
+		user_id,
+		notice_time
+		) VALUES (
+		#{id},
+		#{createById},
+		#{noticeDate}
+		)
+	</insert>
+	<update id="update">
+		update memory_task SET
+		title=#{title},
+		content=#{content},
+		link=#{link},
+		todo=#{todo},
+		notice_date=#{noticeDate},
+		create_date=#{createDate},
+		create_by=#{createById},
+		update_date=#{updateDate},
+		update_by=#{updateById},
+		remarks=#{remarks},
+		del_flag=#{delFlag}
+		WHERE id=#{id}
+	</update>
+	<delete id="deleteNoticedTask">
+		 DELETE FROM
+		 noticedTask
+		 WHERE noticed_task = #{id}
+	</delete>
+</mapper>

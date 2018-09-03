@@ -1,0 +1,7 @@
+com\curve\modules\comm\web\LoginController.class
+com\curve\modules\comm\web\RedirectController.class
+com\curve\core\opt\MemoryTaskNoticeInit$1.class
+com\curve\core\opt\MemoryTaskNoticeInit.class
+com\curve\modules\comm\web\TaskController.class
+com\curve\modules\comm\web\UserController.class
+com\curve\core\init\InstantiationTracingBeanPostProcessor.class

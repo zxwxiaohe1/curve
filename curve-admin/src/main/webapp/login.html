@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>login</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="assets/base/css/base_v.2.0.css" />
+    <link rel="stylesheet" href="assets/base/css/unit_v.2.0.css" />
+    <link rel="stylesheet" href="assets/base/css/module_v.2.0.css" />
+    <link rel="stylesheet" href="assets/base/css/headfooter_v.2.0.css" />
+    <link rel="stylesheet" href="assets/base/css/login.css" />
+    <script src="assets/config.js"></script>
+    <script src="assets/curve.config.js"></script>
+    <script type="text/javascript" src="assets/base/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="assets/base/js/login.js"></script>
+    <script type="text/javascript" src="assets/base/js/jplaceholder.js"></script>
+    <script type="text/javascript" src="assets/js/login.js"></script>
+</head>
+
+<body>
+
+<!-- S header1 -->
+<div class="g-hd">
+    <!-- shortcut -->
+    <div class="g-s">
+        <div class="w990 ma clearfix">
+                <span class="fl s-diqu">
+                    <i class="ico-t i-site mr5"></i><b class="mr5">成都</b><a href="#" class="s-gn">[切换]</a>
+                </span>
+
+            <!--未登录-->
+            <ul class="fr s-nav">
+                <li><a href="#" class="mr15">登陆</a><a href="#">注册</a></li>
+                <li class="s-n-line"></li>
+                <li><a href="#" class="s-oe">我要找律师</a></li>
+                <li>免费法律咨询热线：400-64365-80</li>
+                <li class="s-n-line"></li>
+                <li><a href="#">学法律</a></li>
+                <li class="s-n-line"></li>
+                <li><a href="#">看案例</a></li>
+            </ul>
+
+            <!--已登录-->
+            <ul class="fr s-nav none">
+                <li class="user-login" style="z-index:2;">
+                    <!-- s-l-hover -->
+                    <div class="s-user">
+                        <i class="ico-t i-bell pr mr20"><em class="i-tip-new pa">5</em></i>
+                        <img src="assets/base/images/communal/photo/photo-public.jpg" class="mr10">
+                        <span class="ect">潜水ing<i class="arrow arrow-bottom"></i></span>
+                    </div>
+                    <div class="s-u-more none">
+                        <p class="s-oper"><a href="#" class="btn btn-gn2 btn-sl mr20 fl">进入个人中心</a><a href="#" class="s-out">退出</a></p>
+                        <div class="s-oper-menu">
+                            <p><a href="#"><span><i class="ico-t i-qn"></i>我的问题<em class="i-tip-new">2</em></span></a></p>
+                            <p><a href="#"><span><i class="ico-t i-lr"></i>我的律师</span></a></p>
+                            <p><a href="#"><span><i class="ico-t i-it"></i>我的订单<em class="i-tip-new">3</em></span></a></p>
+                            <p><a href="#"><span><i class="ico-t i-set"></i>帐号设置</span></a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="s-n-line"></li>
+                <li>免费法律咨询热线：400-64365-80</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- E header1 -->
+<!-- S main -->
+<div class="g-mn pb160">
+    <div class="w990 ma mt30">
+        <div class="m-logo clearfix">
+            <a href="#" class="fl mr20 u-logo"><img src="assets/base/images/communal/logo.png" /></a>
+            <i class="ico-t i-logo-cr"></i>
+        </div>
+        <div class="clearfix mt40">
+            <div class="m-log-ad pr fl">
+                <img src="assets/base/images/ad/login/img01.jpg" />
+                <p class="pa">律师365  用心为您找好每一位律师</p>
+            </div>
+            <div class="m-log fr pr">
+                <div class="m-log-tab">
+                    <a href="#" class="tab-now">账号登录</a>
+                    <a href="#">手机登录</a>
+                </div>
+                <div>
+                    <form id="loginForm"  action="/rest/login/access" method="post">
+                        <input type="text" name="loginName" placeholder="登录名" class="mt20 pr u-fm u-tx"/>
+                        <input type="password" name="password" placeholder="密码" class="mt20 pr u-fm u-tx"/>
+                        <input type="submit" class="btn btn-oe mt20" value="登录"/>
+                    </form>
+                </div>
+                <p class="log-tips pa">没有 律师365 帐户?  <a href="#" class="s-gn fb">立即注册</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- E main -->
+<!-- S footer -->
+<div class="g-ft clearfix g-ft-pf">
+    <div class="w990 ma">
+        <ul class="fl f-td mt40">
+            <li>
+                <a href="javascript:void(0);" class="f-td-n"><i class="ico-t i-wx-f"></i></a>
+                <div class="f-td-ew none">
+                    <img src="assets/base/images/communal/erwm113.jpg" />
+                    <p class="tc">关注微信<br />更快速获得律师回复</p>
+                </div>
+            </li>
+            <li><a href="#" class="f-td-n"><i class="ico-t i-wb-f"></i></a></li>
+        </ul>
+        <div class="g-f-subnv fr tr">
+            <div class="ft-tel">
+                <p class="ft-400 fr"><span class="tc"><i class="ico-t i-tel-f"></i></span>400-64365-80</p>
+                <b class="mr5">免费法律咨询热线：</b>
+
+            </div>
+            <p class="ft-nav mt20"><a href="#">关于我们</a><span></span><a href="#">业务介绍</a><span></span><a href="#">加入律师365</a><span></span><a href="#">帮助中心</a><span></span><a href="#">网站地图</a><span></span><a href="#">意见反馈 &gt;&gt;</a></p>
+            <p class="f11 mt5">Copyright&copy;2004-2014  64365.com 版权所有   浙ICP备11021197号-1</p>
+        </div>
+    </div>
+</div>
+<!-- E footer -->
+</body>
+</html>
+
+
+

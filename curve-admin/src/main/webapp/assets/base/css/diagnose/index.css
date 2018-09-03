@@ -1,0 +1,260 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body, html { width: 100%; height: 100%; }
+
+.w940 { width: 940px; }
+.w850 { width: 850px; }
+
+/* 滚屏圆点 */
+.pop-btn {
+    position: fixed;
+    top: 50%; right: 50px;
+    width: 16px;
+    margin-top: -57px;
+    /*margin-top: -70px;*/
+}
+.pop-btn a {
+    display: block;
+    width: 10px; height: 10px;
+    padding: 1px;
+    border: 2px solid #ff9600; border-radius: 50%;
+    margin: 10px 0;
+    cursor: pointer; 
+}
+.pop-btn a i {
+    width: 10px; height: 10px;
+    background-color: #ff9600; border-radius: 50%;
+    display: none;
+}
+.pop-btn a.pop-btn-click i { display: block; }
+
+/*内容*/
+.content-bar {
+    position: relative;
+    width: 100%; height: 100%;
+}
+.k1, .k3 { background: url('../../images/diagnose/bg/bg1.png') no-repeat; background-size: cover; }
+.k2, .k4 {
+    background: url('../../images/diagnose/bg/bg2.png') no-repeat; background-size: cover;
+    color: #fff;
+}
+    /**/
+.cont-bottom {
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 100%; height: 60px;
+    padding: 20px 0; text-align: center;
+    background-color: #01af63;
+}
+.cont-bottom a {
+    display: inline-block;
+    width: 226px; height: 56px; line-height: 56px;
+    border: 2px solid #fff;
+    font-size: 22px; color: #fff;
+}
+.cont-bottom a:hover { opacity: .8; }
+.cont-b-white { background-color: #fff; }
+.cont-b-white a {
+    border-color: #01af63;
+    color: #01af63;
+}
+    /**/
+.cont-nr {
+    position: absolute;
+    left: 50%; top: 50%;
+}
+
+    /**/
+.k1 .f30 { height:32px; line-height: 32px; color: #01af63; }
+.k1 .f30 .ico-diag { vertical-align: bottom; }
+.k1 .f62 {
+     height:64px; line-height: 64px; 
+     font-size:62px; 
+     margin-top: 40px;
+}
+.f-line {
+    position: relative;
+    width: 360px; height:11px;
+    border-bottom: 1px solid #666;
+}
+.f-line span {
+    position: absolute;
+    left: 50%; top:0;
+    padding: 0 10px;
+    background: #fff;
+    font-size: 14px; color:#333;
+    margin-left: -87px; 
+}
+.f-step { width: 360px;font-size: 14px; }
+.f-step i {
+    display: inline-block;
+    width: 14px; height:14px; line-height:14px;
+    background-color: #333; color:#fff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.f-youshi {
+    display: inline-block;
+    width: 338px; height: 110px;
+    padding-top: 30px;
+    background: #fff;
+    border-bottom: 2px solid #ff9600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+.f-youshi p {
+     font-size:24px; line-height: 30px; 
+     margin-top:15px;
+}
+.f-jia {
+    position: relative;
+    display: inline-block;
+    width: 66px;
+    font-size: 30px; top:-15px;
+}
+.mt60 { margin-top: 60px; }
+    /**/
+.k2 .f30 { line-height: 32px; }
+.k2 .f-tips {
+    height: 28px; line-height: 28px;
+    font-size: 14px;
+    margin: 50px auto; 
+}
+.k2 .f-tips .ico-diag { margin-right: 10px; }
+
+.scrollbar {
+    height: 224px;
+    padding: 40px 10px 40px 40px;
+    background-color: #ff9600;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+.scrollbar-nr {
+    height: 224px;
+    padding-right: 25px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+.scrollbar-nr h3 {
+    font-size: 30px; line-height: 32px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #ffc169;
+}
+.scrollbar-nr .f18 {
+    font-size: 18px;
+    margin-top: 28px;
+}
+.scrollbar-nr .f14 {
+    font-size: 14px;line-height: 28px;
+    margin-top: 11px;
+}
+    /**/
+.k3 .f30 { line-height: 32px; }
+.k3 .pipei {
+    position: relative;
+    height: 350px;
+    background-color: #3d5173;
+    margin-top: 85px;
+}
+.pipei-left, .pipei-right {
+    width: 160px; height: 250px;
+    padding: 50px 60px;
+    color: #d7e3f8;
+}
+.pipei-left strong, .pipei-right strong {
+    display: block;
+    font-size: 40px; line-height: 42px; font-weight: normal;
+}
+.pipei-left p, .pipei-right p {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.pipei-left p { line-height: 28px; }
+.pipei-right p { line-height: 24px; }
+.pipei-left { background: url('../../images/diagnose/1.png') no-repeat; }
+.pipei-right { background: url('../../images/diagnose/3.png') no-repeat; }
+
+.pipei-middle {
+    position: absolute;
+    left: 280px; top: -30px;
+    width: 232px; height: 350px;
+    padding: 30px 29px;
+    background: url('../../images/diagnose/2.png') no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: #fff;
+}
+.pipei-num { font-size: 12px; line-height: 14px; }
+.pipei-num p { font-size: 50px; line-height: 58px; }
+.pipei-data li {
+    position: relative;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+.pipei-data li span {
+    float: left;
+    color: #00522e;
+    margin-right: 20px;
+}
+.pipei-data li .pipei-line {
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 100%; height: 2px;
+    background-color: #00874c;
+}
+.pipei-data li .pipei-line em {
+    display: block; height: 2px;
+    background-color: #fff;
+}
+    /**/
+.k4 .f30 { line-height: 32px; }
+.k4 .w440 { width: 440px; }
+.k4 .w60 { width: 60px; }
+.k4 .table-tit {
+    height: 32px; line-height: 32px;
+    margin: 50px 0;
+}
+.k4 .table-tit .w440 { font-size: 30px; }
+.k4 .table-tit .w60 { font-size: 24px; }
+.k4 .f-table { }
+.td-left, .td-right { 
+    height: 45px; line-height: 44px;
+    background-color: #fff;
+    font-size: 14px; color: #3d5173;
+}
+.td-left span, .td-right span {
+    width: 118px; height: 43px;
+    border-width: 1px; border-style: solid;
+    font-size: 18px; color: #fff;
+    text-align: center;
+}
+.td-left span {
+    background-color: #3d5173; border-color: #fff; 
+    margin-left: 25px;
+}
+.td-right span {
+    background-color: #ff9600; border-color: #ff9600; 
+    margin-right: 25px;
+}
+
+
+/**/
+.w300 { width:300px; }
+.validate-form { 
+    width:639px; 
+    border-right:1px solid #eee;
+}
+.validate-form .u-wid .u-tx { width:118px; margin-right:10px; }
+.validate-form .u-wid .btn-gy { padding:0 23px; height:32px; }
+.mt80 { margin-top:80px; }
+.validate-list {
+    *width:430px;
+}
+.validate-list li {
+    display:inline-block; *float:left; 
+    width:140px;
+}
+.validate-list li .va-img img {
+    width:80px; height:80px;
+    border-radius:50%;
+    overflow:hidden;
+}

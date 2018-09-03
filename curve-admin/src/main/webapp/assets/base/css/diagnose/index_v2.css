@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body, html { width: 100%; height: 100%; }
+
+.w960 { width: 960px; }
+.mt70 { margin-top:70px; }
+.banner {
+    height:540px;
+    background:url(../../images/diagnose/banner.jpg) center #232323 no-repeat;
+}
+.s-cfff { color:#fff; }
+.banner .f50 {
+    padding-top:120px;
+    font-size:50px;
+}
+.banner .btn { height:44px; line-height:44px; font-size:15px; }
+.f44 { font-size:44px; }
+.box-shadow { 
+    box-shadow:0 1px 3px rgba(0,0,0,.15);
+    border-bottom:1px solid  #e6e6e6;
+}
+.case-detail {
+    padding:40px 80px;
+}
+.detail-tit { 
+    padding-bottom:40px;
+    border-bottom:2px solid #01af63;
+}
+.detail-nr { margin-top:30px; border-bottom:1px solid #e0e0e0; padding-bottom:50px; }
+.detail-nr p, .detail-nr span {
+    line-height:30px; 
+}
+.lh28 { line-height:28px; }
+
+.h60 .btn { height:56px; line-height:56px; font-size:20px; }

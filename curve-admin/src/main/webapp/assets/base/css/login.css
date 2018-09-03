@@ -1,0 +1,167 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 登录页 */
+.m-logo .i-logo-cr { margin-top:8px; }
+.m-log-ad img { display:block; }
+.m-log-ad p { 
+    bottom:0; left:0; right:0; 
+    height:80px; line-height:80px; 
+    text-align:center; font-size:18px; 
+    background:rgba(255,255,255,.7); color:#333;
+}
+.m-log {
+    width:290px; height:390px;
+    padding-left:60px; 
+    border-left:1px solid #efefef;
+}
+.m-log-tab {
+    height:32px;
+}
+.m-log-tab a {
+    float:left;
+    padding-bottom:10px;
+    width:145px;
+    text-align:center;
+    font-size:16px;
+    color:#999;
+    border-bottom:1px solid #eee;
+}
+.m-log-tab a.tab-now { 
+    color:#00b161; 
+    border-bottom:2px solid #00b161;
+}
+.m-log .u-tx { width:268px; }
+.log-tips {
+    bottom:0;
+    font-size:14px;
+}
+.m-log .u-wid .u-tx { width:103px; }
+.m-log .btn { padding:0 45px; }
+.m-log .u-wid .btn-gy { padding:0 40px; margin-left:10px; _margin-left:6px; height:32px; }
+/* 底部固定 */
+.g-ft-pf { left:0; right:0; bottom:0; }
+.pb160 { padding-bottom: 160px; }
+/* 注册选择页 */
+.m-tit { 
+    padding:30px 0; 
+    border-bottom:1px solid #eee; 
+    line-height:28px; 
+}
+.m-tit p { color:#333;}
+.m-tit span { color:#999; }
+.m-reg { margin-top:60px; }
+.m-reg a { 
+    float:left;
+    padding:40px 0;
+    width:475px;
+    height:220px;
+    line-height:28px;
+    text-align:center;
+    background:#f8f8f8;
+    color:#333;
+}
+.m-reg a span {
+    display:inline-block;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.m-reg a:hover span { box-shadow:0 10px 20px rgba(0,0,0,.2); }
+.m-reg a p { font-size:18px; }
+.m-reg a em { color:#999; }
+/* 公众注册 */
+.m-reg-list { 
+    width:640px;
+    border-right:1px solid #eee; 
+}
+.m-reg-list .u-tx { float:left; }
+.m-reg-list .u-wid .u-tx { width:118px; margin-right:10px; }
+.m-reg-list .u-wid .btn-gy { padding:0 23px; height:32px; }
+.inp-tip { color:#999; line-height:38px; }
+.ico-laod2 { 
+    display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+    width:32px;
+    height:32px;
+    background:url(../images/communal/laoding2.gif) no-repeat; 
+}
+.log-num { width:349px; }
+/* 律师注册 */
+.m-reg-list .reg-tit { 
+    padding-left:10px;
+    font-size:20px;
+    border-left:3px solid #01af63;
+}
+.reg-step { padding:40px 0 60px 75px; }
+.reg-step span { 
+    display:block;
+    width:25px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    color:#fff; background:#ccc;
+    border-radius:50%;
+}
+.reg-step .step-oe { background:#f25618; }
+.reg-step .step-gn { background:#01af63; }
+.reg-step em {
+    position:absolute;
+    left:50%;
+    top:35px;
+    display:block;
+    margin-left:-50px;
+    width:100px;
+    text-align:center;
+    font-size:14px;
+}
+.reg-step .line {
+    margin:11px 10px 0;
+    width:250px;
+    height:3px;
+    background:#eee;
+    border-radius:3px;
+    overflow:hidden;
+}
+/*律师提交成功*/
+.law-data {
+    padding:30px 99px;
+    border:1px solid #f2f2f2;
+}
+.law-data .btn-gn2 { padding:0 18px; }
+.law-data span { color:#999; }
+.law-data .btn-sl {
+    padding:0 10px;
+    border-color:#7ad7a1;
+    color:#fff;
+    background:#7ad7a1;
+}
+/*找回密码*/
+.pass-step1 { padding-left:270px; }
+.pass-step1 label { 
+    display:inline-block; 
+    float:left;
+    width:48px; 
+    height:38px;line-height:38px;
+    font-size:14px; 
+    text-align:right; 
+}
+.pass-step1 .u-wid .u-tx { width:98px; }
+.pass-step1 span { display:inline-block; margin:0 10px; }
+.pass-step1 img { display:block; }
+.pass-step1 .u-wid a { line-height:38px; }
+.pass-step1 .btn { padding:0 37px; }
+.pass-step2 span, .pass-step3 em { color:#333; }
+.pass-step3 label { width:80px; }
+.pass-step4 { padding-left:335px; }
+.pass-step4 span, .pass-step4 em { display:block; }
+.pass-step4 span { color:#333; }
+.pass-step4 em { color:#999; }
+.pass-step2 p { color:#999; }
+.pass-step2 span { margin:0 3px; }
+.pass-phone { padding-left:270px; }
+.pass-phone .u-wid .u-fm { width:118px; }
+.pass-phone .u-wid .btn { padding:0 28px; height:32px; }
+.pass-phone .btn-gn2 { padding:0 47px; }

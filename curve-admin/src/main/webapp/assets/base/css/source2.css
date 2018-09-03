@@ -1,0 +1,265 @@
+﻿
+.w560 { width: 560px!important; }
+.w175 { width: 175px!important; }
+.w155 { width: 153px!important; }
+.w110 { width: 110px!important; }
+.w64 { width: 64px!important; }
+
+/**/
+.th-xk { border-left:1px solid #d9d9d9; height:26px; }
+.th-xk a { 
+	float:left; padding:0 19px; height:24px; 
+	font-size:12px; line-height:24px; color:#646464;
+	border:1px solid #d9d9d9; border-left:none; 
+}
+.th-xk a.tx-on { background:#596475; border-color:#596475; color:#fff; }
+
+
+/* 标题 */
+.title-h20 {
+    height: 20px; line-height: 20px;
+}
+
+.title-h36 {
+    height: 36px; line-height: 36px;
+    padding: 14px 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    font-size: 14px;
+}
+.title-h36-bg1 { border-bottom-color: #ebb32c; }
+.title-h36-bg2 { border-bottom-color: #129773; }
+.title-h36-bg3 { border-bottom-color: #ef0000; }
+.title-h36-bg4 { border-bottom-color: #0957a4; }
+.title-h36-bg5 { border-bottom-color: #333; }
+.title-h36-bg6 { border-bottom-color: #f75b10; }
+.title-h36-bg7 { border-bottom-color: #5a5a5a; }
+
+.s-c1 { color: #ebb32c; }
+.s-c2 { color: #129773; }
+.s-c3 { color: #ef0000; }
+.s-c4 { color: #0957a4; }
+.s-c5 { color: #333; }
+.s-c6 { color:#f75b10; }
+.s-c7 { color:#5a5a5a; }
+.title-h36 .u-checkbox em { color: #aaa; }
+.set-switch {
+    float: right;
+    height: 36px; line-height: 36px;
+    padding: 0 8px;
+    background-color: #f65000;
+    font-size: 14px; color: #fff;
+}
+.set-del {
+    float: right;
+    width: 40px;
+    height: 36px; line-height: 36px;
+    background-color: #5a5a5a;
+    text-align: center;
+}
+
+/* 线索详细 */
+.detail-list {}
+.detail-list li {
+    position: relative;
+    padding-left: 105px;
+    min-height: 36px; line-height: 36px;
+    font-size: 14px; color: #5a5a5a;
+}
+.detail-list li .dl-lt-tit {
+    position: absolute;
+    left: 0;top: 0;
+    width: 70px;
+    text-align: right;
+}
+.set-alter {
+    height:16px; line-height: 16px; 
+    color: #f65100;
+}
+.set-alter .i-ay34, .set-alter .i-ay14{
+    float: left;
+    margin: 1px 5px 0 0;
+}
+.set-blue {
+    height:16px; line-height: 16px; 
+    color: #1470d8;
+}
+.set-blue .i-ay51 {
+    float: left;
+    margin: 5px 9px 0 0;
+}
+.set-blue .i-ay52 {
+    float: left;
+    margin: 4px 3px 0 0;
+}
+.text-input {
+    width: 338px; padding: 0 10px;
+    height: 24px; line-height: 24px;
+    border: 1px solid #ccc;
+    color: #666;
+}
+.text-input-hover { border-color: #fe7700; }
+    /**/
+.detail-list .add-case { width: 870px; }
+.detail-list .add-case li {
+    line-height: 20px;
+    padding-left: 130px;
+}
+.detail-list .add-case li span {
+     width: 115px; line-height: 36px;
+}
+    /**/
+.beizhu-tips {
+    width: 560px; line-height: 24px;
+    margin-top: 6px;
+	word-break:break-all;
+}
+.text-time { font-size: 12px; color: #bbb; }
+.text-role-lawyer, .text-role-lawwork {
+    position: relative;
+    height: 18px; line-height: 18px;
+    padding: 0 5px;
+    border-radius: 0 2px 2px 0;
+    font-size: 12px; color: #ffffff;
+}
+.text-role-lawyer .i-ay35,
+.text-role-lawwork .i-ay36 {
+    position: absolute;
+    left: -7px;
+}
+.text-role-lawyer { background-color: #01af63; }
+.text-role-lawwork { background-color: #1470d8; }
+.beizhu-alter {
+    width: 560px;
+    border: 1px solid #ddd;
+}
+.beizhu-alter textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border: none; resize: none;
+    box-sizing: border-box;
+}
+
+/* 推荐律师 */
+.tuijian-table, .tuijian-table th, .tuijian-table td { border: 1px solid #f0f0f0; }
+.tuijian-table th {
+    height: 38px; line-height: 38px;
+    font-size: 14px; color: #aaa; text-align: center;
+    font-weight: normal;
+}
+.tuijian-table td {
+    height: 130px;
+    box-sizing: border-box;
+    padding: 20px 10px 0;
+    color: #5a5a5a;
+    vertical-align: top;
+}
+.tuijian-table .h20 { height: 20px; }
+.tuijian-table .s-c01a { color: #01af63; }
+.tuijian-table .s-caaa { color: #aaa; }
+.tuijian-table .lh18 { line-height: 18px; }
+.tuijian-table .lr-photo,
+.tuijian-table .lr-photo img {
+    float: left;
+    width: 80px; height: 80px;
+}
+.tuijian-table p { line-height: 20px; }
+.tuijian-table .lr-name {
+    font-size: 14px; font-weight: bold;
+    color: #5a5a5a;
+}
+.lr-city {
+    font-size: 12px;
+    color: #bbb;
+}
+.lr-city .i-ay48 {
+    float: left;
+    margin: 4px 5px 0 0;
+}
+    /**/
+.tuijian-step-bar {
+    position: relative;
+}
+.tuijian-step {
+    position: absolute;
+    left: 20px;
+    border-left: 1px solid #01af63;
+}
+.tuijian-step p {
+    position: relative;
+    left: -4px; top: -5px;
+    height: 22px; line-height: 22px;
+    color: #bbb;
+    margin-top: 3px;
+}
+.tuijian-step p i {
+    float: left;
+    width: 5px; height: 5px;
+    border: 1px solid #01af63; border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 8px 10px 0 0;
+}
+.tuijian-step .tj-sp-top, 
+.tuijian-step .tj-sp-bottom {
+    position: absolute;
+    left: -1px;
+    width: 1px;
+    background: #fff;
+}
+.tuijian-step .tj-sp-top { top: 0;  height: 7px; }
+.tuijian-step .tj-sp-bottom { bottom: 0;  height: 12px; }
+.tuijian-step .btn { height: 20px; line-height: 20px; }
+.tuijian-step p.tj-sp-over { left: -5px; top: -4px; }
+.tuijian-step p.tj-sp-over i {
+    width: 7px; height: 7px; 
+    background-color: #01af63;
+
+}
+.tuijian-step p.tj-sp-over b { color: #01af63; }
+.tuijian-step p.tj-sp-ct b { color: #5a5a5a; }
+        /* 完成 弹框*/
+.tuijian-step-popup {
+    position: absolute;
+    left: 0; bottom: 120px;
+    width: 310px; height: 140px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    z-index: 20;
+}
+
+/* 弹框：评价律师*/
+.popup-evaluate {
+    position: fixed;
+    left: 50%; top: 50%;
+    width: 740px; height: 550px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    margin: -305px 0 0 -400px;
+}
+.popup-evaluate .i-ay49 {
+    position: absolute;
+    top: -14px; right: -14px;
+    cursor: pointer;
+}
+.popup-evaluate .f26 { font-size: 26px; }
+    /**/
+.pj-star {
+    height: 20px; line-height: 20px;
+    font-size: 14px;
+}
+.pj-star .ico-star {
+    float: left; margin: 3px 5px 0 5px;
+    cursor: pointer;
+}
+
+.popup-evaluate .text-input {
+    height: 34px; line-height: 34px;
+    width: 598px;
+}
+
+
+

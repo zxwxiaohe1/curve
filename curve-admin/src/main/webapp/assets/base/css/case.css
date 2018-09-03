@@ -1,0 +1,312 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.box-shadow { 
+    box-shadow:0 1px 3px rgba(0,0,0,.15);
+    border-bottom:1px solid  #e6e6e6;
+}
+/* search */
+.search {
+    padding-top:60px;
+    height:440px;
+    background:url(../images/case/case-bg.png) center top no-repeat;
+}
+.s-cfff { color:#fff; }
+.search a.s-cfff:hover { color:#333; }
+.sea-srk { 
+    margin:80px auto 0; 
+    width:700px;
+    box-shadow:0 3px 5px rgba(0,0,0,.15);
+}
+.sea-srk input {
+    float:left;
+    padding:15px 20px;
+    width:580px;
+    height:20px; line-height:20px;
+    background-color:#fff;
+}
+.sea-srk a {
+    float:left;
+    padding:13px 28px;
+    width:24px; height:24px; line-height:24px;
+    background-color:#fff;
+}
+.sea-srk a:hover { background-color:#333;}
+.search-h170 {
+    padding-top:40px;
+     height:130px; 
+}
+.search-h170 .sea-srk {
+    margin-top:0;
+}
+.search-h170 .w790 { 
+    width:790px;
+    margin:0 auto;
+}
+/* 筛选 */
+.case-screen {
+    background:url(../images/case/gray-bg.png) right bottom #f8f8f8 no-repeat;
+}
+.case-screen .w168 {
+    position:relative;
+    padding-top:80px;
+    width:168px; height:144px;
+    background-color:#51c66d;
+}
+.case-screen .w168 .arrow-left {
+    position:absolute; right:0; top:104px;
+    border-width:11px;
+    border-right-color:#f8f8f8;
+}
+
+.u-222 .u-pn { width: 220px; }
+.u-222 .pn-ct { width: 220px; }
+.u-222 .u-pn-hover { width: 218px; height: 34px; }
+.u-222 .u-pn-hover .pn-ct { width:218px; }
+.u-222 .u-pn-click { width: 222px; }
+.u-222 .u-pn-click .pn-ct { width: 220px; }
+
+.u-454 .u-pn { width: 452px; }
+.u-454 .pn-ct { width: 452px; }
+.u-454 .u-pn-hover { width: 450px; height: 34px; }
+.u-454 .u-pn-hover .pn-ct { width:450px; }
+.u-454 .u-pn-click { width: 454px; }
+.u-454 .u-pn-click .pn-ct { width: 452px; }
+
+.u-222 .btn {
+    display:block;
+    width:122px;
+    text-align:center;
+}
+.u-pn-disable { border-color:#d8d8d8; }
+
+/*头像效果*/
+.lawyer-infor-bar { position:relative; }
+.lawyer-infor-bar, .lr-photo {
+	width:60px; height:60px;
+}
+.lawyer-infor-bar .lr-img {
+	display:block;
+	width:100%; height:100%;
+	border-radius:50%;
+}
+.lr-inf-pop {
+	position:absolute;
+	left:-20px; top:-20px;
+	width:180px; height:104px;
+	padding:20px;
+	background-color:#fff;
+	box-shadow: 0 10px 15px rgba(0,0,0,.3);
+	display:none;
+}
+.lr-pop-item {
+	position:relative;
+	padding-left:70px;
+	height:60px;
+}
+.lr-pop-item .lr-photo {
+	position:absolute;
+	left:0; top:0;
+}
+.lr-pop-item .lr-photo:hover { opacity:.8; }
+.lr-pop-item p { color:#999; }
+.lr-pop-item p a { font-size:14px; color:#333; }
+.lr-pop-item p a:hover { color:#f25618; }
+.lr-inf-pop .lr-status {
+	height:24px; line-height:24px;
+	text-align:center; color:#fff;
+	background-color:#4dbe69;
+}
+/* 判决书 */
+.mr25 { margin-right: 25px; }
+.sentence-item {
+	float:left;
+    width: 241px; height: 175px;
+    padding: 25px 20px 0;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd; border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.sent-tit {
+    height: 48px; line-height: 24px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.sent-tag {
+    height: 14px; line-height: 14px;
+    color: #bbb;
+    margin: 16px 0 20px 0;
+}
+.sent-tag .ico-case { float: left; margin-right: 5px; }
+
+/* 筛选标签 */
+.lh36 { line-height:36px; }
+.u-sn {
+    position: relative;
+    padding: 0 56px 0 20px; margin-right:20px; margin-bottom:20px;
+    height: 36px; line-height: 36px;
+    font-size:14px;
+    background-color:#f25618;
+    color: #fff;
+    white-space:nowrap;
+}
+.u-sn span {
+    position: absolute; top: 0; right: 0;
+    padding:10px;
+    width: 16px; height: 16px;
+    text-align: center;
+    background-color:#333;
+    cursor:pointer;
+}
+.u-sn:hover { color: #fff; }
+.u-sn:hover span { background-color: #000; }
+
+.sn-term {
+    padding:22px 0 2px 110px; *padding-bottom:22px;
+    min-height:36px; _height:36px;
+}
+.sn-term em.pa {
+    left:0; top:22px;
+}
+
+/* 列表 */
+
+.filtrate-tit, .filt-nav h3 { 
+	height:60px; line-height:60px;
+	font-size:18px; 
+}
+.filtrate-tit {
+	padding:0 20px; 
+	background-color:#01af63;
+	color:#fff;
+}
+.filtrate-tit .ico-case {
+	float:left;
+	margin:21px 20px 0 0;
+}
+.filt-nav h3 {
+	background-color:#f8f8f8;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+	cursor:pointer;
+}
+.filt-bg {
+	padding:10px 0; 
+	background-color:#eee;
+	border-bottom:1px solid #ddd;
+    display: none;
+}
+.filt-two ul { display: none; }
+.filt-two-tit {
+	padding:0 20px; 
+	height:32px; line-height:32px;
+	font-size:14px;
+	cursor:pointer;
+}
+.filt-two-tit .i-jt3 {
+	float:left;
+	margin:13px 10px 0 0;
+}
+.filt-nav h3, .filt-two-tit { color:#333; }
+.filt-three {
+	height:30px; line-height:30px;
+}
+.filt-three a { display:block; padding-left:60px; }
+.filt-three a:hover, .filt-three a.filt-hover:hover { 
+    background-color:#aaa;
+    color:#fff;
+}
+.filt-three a.filt-hover { color: #f25618; }
+
+/* 列表 */
+.w280 { width:280px; }
+.w880 { width:880px; }
+.w900 { width:900px; }
+.bgff { background-color:#fff; }
+.title1 {
+    padding-bottom:18px;
+    border-bottom:2px solid #51c66d;
+}
+
+.case-list li {
+    padding:30px 0;
+    border-bottom:1px dashed #eee;
+}
+.case-list li:hover { background-color:#f8f8f8; }
+.mtb160 {
+    margin-top:160px; margin-bottom:160px;
+}
+
+.weizhi .s-fa { 
+    margin:0 5px;
+    color:#999; 
+}
+
+/* 详细页 */
+.case-detail {
+    padding:50px 60px;
+}
+.detail-tit { 
+    padding-bottom:40px;
+    border-bottom:1px solid #666;
+}
+.detail-nr { margin-top:50px; }
+.detail-nr p, .detail-nr span {
+    color:#333;
+    font-size:14px;
+    line-height:28px; 
+}
+.detail-nr a { color:#ff9600; }
+.case-relevant { border-top:1px solid #eee; }
+.case-relevant li {
+    padding:20px 0;
+    height:20px;
+    border-bottom:1px dashed #eee;
+}
+.case-relevant li p {
+    height:20px; line-height:20px;
+    font-size:14px;
+    overflow:hidden;
+}
+.i-line {
+    float:left;
+    width:3px; height:20px;
+    background-color:#01af63;
+}
+.btn-block .btn {
+    display:block;
+    text-align:center;
+}
+
+.case-lr li {
+    padding:15px 0;
+    height:100px;
+    border-bottom:1px dashed #ddd;
+    overflow:hidden;
+}
+.case-lr li.borb0 { border-bottom:0; }
+.case-lr li .c-l-img {
+    width:100px; height:100px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.case-lr li .c-l-img img {
+    display:block;
+    width:100px; height:100px;
+}
+.case-lr .lr-status {
+    display:inline-block;
+    padding:0 10px; margin-top:10px;
+	height:24px; line-height:24px;
+	text-align:center; color:#fff;
+	background-color:#4dbe69;
+}
+.no-nr { padding:80px 0; }
+.no-nr p { font-size:18px; }
+
+/* 详细页右边漂浮*/
+.right-fixed {
+    position: fixed;
+    top: 0;
+    width: 280px;
+}

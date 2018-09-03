@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="curve-core:war">
+    <output-path>$PROJECT_DIR$/curve-core/target</output-path>
+    <root id="archive" name="curve-core.war">
+      <element id="artifact" artifact-name="curve-core:war exploded" />
+    </root>
+  </artifact>
+</component>

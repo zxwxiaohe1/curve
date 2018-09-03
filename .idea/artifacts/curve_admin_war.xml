@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="curve-admin:war">
+    <output-path>$PROJECT_DIR$/curve-admin/target</output-path>
+    <root id="archive" name="curve-admin-1.0.war">
+      <element id="artifact" artifact-name="curve-admin:war exploded" />
+    </root>
+  </artifact>
+</component>

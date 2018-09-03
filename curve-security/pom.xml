@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.curve</groupId>
+  <artifactId>curve-security</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>curve-security</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <servlet.version>3.1.0</servlet.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.curve</groupId>
+      <artifactId>curve-core</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://192.168.1.112:8081/repository/java/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://192.168.1.112:8081/repository/java/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
+    <finalName>ssmh</finalName>
+    <plugins>
+      <!-- 打jar包插件 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <!--<configuration>-->
+        <!--<excludes>-->
+        <!--<exclude>**/*.properties</exclude>-->
+        <!--</excludes>-->
+        <!--</configuration>-->
+      </plugin>
+      <!-- 打包源码插件 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.0.1</version>
+        <configuration>
+          <excludes>
+            <exclude>**/*.jar</exclude>
+            <exclude>**/*Test.java</exclude>
+          </excludes>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

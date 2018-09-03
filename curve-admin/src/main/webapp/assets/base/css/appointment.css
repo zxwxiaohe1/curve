@@ -1,0 +1,274 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*预约律师*/
+.appoint-tit {
+    padding:20px 0;
+    border-bottom:1px solid #eee;
+}
+.appoint-law {
+    width:400px; height:120px;
+    border-right:1px solid #eee;
+}
+.appoint-law .law-photo {
+    width:120px; height:120px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.appoint-law span { color:#bbb; }
+.appoint-law p { height:24px; line-height:24px; }
+.appoint-fee span {
+    padding:0 6px;
+    height:18px; line-height:18px;
+    color:#f25618;
+    border:1px solid #f25618;
+}
+.fee-explain {
+    position:absolute; top:30px; left:-35px;
+    width:230px;
+    padding:10px 19px;
+    background:#fff;
+    border:1px solid #eee;
+    box-shadow:0 3px 15px rgba(0,0,0,.2);
+}
+.fee-explain .arrow-top {
+    position:absolute; top:-14px; left:35px;
+    border-width:8px;
+    border-bottom-color:#fff;
+}
+.appoint-step { 
+    padding:35px 0 60px 49px; 
+    width:540px; height:25px;
+}
+.appoint-step span { 
+    display:block;
+    width:25px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    color:#fff; background:#ccc;
+    border-radius:50%;
+}
+.appoint-step .step-oe { background:#f25618; }
+.appoint-step .step-gn { background:#01af63; }
+.appoint-step em {
+    position:absolute;
+    left:50%;
+    top:35px;
+    display:block;
+    margin-left:-50px;
+    width:100px;
+    text-align:center;
+    font-size:14px;
+}
+.appoint-step .line {
+    margin:11px 10px 0;
+    width:120px;
+    height:3px;
+    background:#eee;
+    border-radius:3px;
+    overflow:hidden;
+}
+.appoint-tip {
+    padding:8px 20px;
+    min-height:24px; _height:24px; line-height:24px;
+    font-size:14px;
+    background:#f8f8f8; color:#999;
+}
+.appoint-write h2 span {
+    height:24px; line-height:24px;
+    font-size:20px;
+    color:#333;
+}
+.appoint-write h2 .wr-line {
+    float:left;
+    margin-right:10px;
+    width:3px; height:20px; line-height:20px;
+    background:#01af63;
+    border-top:2px solid #fff;
+}
+
+.appoint  li { padding-left: 200px; }
+.appoint  li label {
+    width: 190px;
+    font-size: 16px; text-align: right;
+}
+.appoint .m-f-tips { left: 490px; }
+.appoint .m-f-tips-bm { left: 200px; }
+.appoint .left45 { left: 45px; }
+.u-fd.u-fd-le {
+    width: 518px; 
+    height: 154px;
+}
+.appoint  li .f32 { font-size: 32px;color: #f25618; }
+*html, *html body { background-image:url(about:blank); background-attachment:fixed; height:100%; width:100%; }
+.pop-bg {
+	position:fixed; left:0; right:0; top:0; bottom:0; 
+	_position:absolute; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop));  
+    width:100%; height:100%; 
+	background: #000;
+	opacity: .3;
+	filter: alpha(opacity=30);
+	z-index:1000;
+    _background:#ddd;
+
+}
+.pop {
+    position:absolute; top:200px; left:50%; z-index:1003;
+}
+.pop-close {
+    position:absolute; right:20px; top:15px;
+}
+.pop-login {
+    margin-left:-190px;
+    padding:50px 39px 30px;
+    background:#fff;
+    border:1px solid #eee;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+.m-log {
+    width:300px;
+}
+.m-log-tab {
+    height:32px;
+}
+.m-log-tab a {
+    float:left;
+    padding-bottom:10px;
+    width:150px;
+    text-align:center;
+    font-size:16px;
+    color:#999;
+    border-bottom:1px solid #eee;
+}
+.m-log-tab a.tab-now { 
+    color:#00b161; 
+    border-bottom:2px solid #00b161;
+}
+.m-log .u-tx { width:278px; }
+.log-tips { font-size:14px; }
+.m-log .u-wid .u-tx { width:113px; }
+.m-log .btn-oe { width:100%; text-align:center; padding:0; }
+.m-log .u-wid .btn-gy { padding:0 40px; margin-left:10px; _margin-left:6px; height:32px; }
+/* 支付 */
+.pay-money {
+    padding:25px 40px;
+    background:#f8f8f8;
+}
+.pay-money { color:#999; }
+.pay-money .f16 { color:#333; }
+.pay-money .f32 { font-size: 32px; color: #f25618; }
+.pay-type li { padding-left:200px; }
+.pay-type li label { 
+    position:absolute; left:0; top:0;
+    width:190px; height:60px; line-height:60px; 
+}
+.pay-type li img {
+    display:block;
+}
+.pay-bank a {
+    position:relative;
+    float:left;
+    padding:3px 85px 4px;
+    border:2px solid #fff;
+}
+.pay-bank a:hover {
+    padding:3px 85px 4px;
+    border-color:#eee;
+}
+.pay-bank a .i-g-ck {
+    position:absolute; right:-2px; top:-2px;
+    display:none;
+}
+.pay-bank .pay-checked,.pay-bank .pay-checked:hover { border-color:#01af63; }
+.pay-bank .pay-checked .i-g-ck { display:block; }
+.pay-qita a,.pay-qita a:hover { padding:0; margin-right:20px; }
+.pop-pay {
+    margin-left:-190px;
+    padding:39px;
+    width:300px;
+    background:#fff;
+    border:1px solid #eee;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+/*支付状态*/
+.pay-state {
+    padding:40px 0 40px 237px;
+    height:48px; line-height:24px;
+    background:#f8f8f8;
+}
+.pay-state p { color:#333; }
+.pay-state span { color:#999; }
+.pay-tip h2, .pay-tip span { color:#333; }
+.pay-tip p { line-height:24px; }
+/* 底部固定 */
+.g-ft-pf { left:0; right:0; bottom:0; }
+.pb160 { padding-bottom: 160px; }
+
+/* 2015-10-29 add */
+.appoint .u-120 .u-tx { width: 98px;  }
+.appoint .u-120 .u-fm-focus, .u-120 .u-fm-error {
+	padding:9px 9px;
+    height:14px;
+}
+.appoint .u-120 .btn-gy {
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    width: 126px;
+    text-align: center;
+}
+.appoint li { min-height:38px; }
+.appoint li .pn-more li {
+    padding:0 10px;
+}
+.u-270 .u-pn { width: 268px; }
+.u-270 .pn-ct { width: 268px; }
+.u-270 .u-pn-hover { width: 266px; height: 34px; }
+.u-270 .u-pn-hover .pn-ct { width:266px; }
+.u-270 .u-pn-click { width: 270px; }
+.u-270 .u-pn-click .pn-ct { width: 268px; }
+.w1200 .appoint-step { width:750px; }
+.sc-bq {
+    display:inline-block;
+    padding:0 18px;
+    height:20px; line-height:20px;
+    color:#fff !important; background-color:#11c174;
+}
+.appoint-list1 .w200 {
+    width:200px; height:140px;
+    text-align:center;
+    position:relative;
+    font-size:18px;
+}
+.appoint-list1 .bg-ee { 
+    background-color:#eee;
+    color:#666;
+}
+.appoint-list1 .bg-gn { 
+    background-color:#3ed272; 
+    color:#fff;
+}
+.appoint-list1 .w200 p { margin-top:60px; }
+.appoint-list1 .w200 .arrow-left {
+    position:absolute; right:0; top:60px;
+    border-right-color:#fff;
+    border-width:10px;
+}
+.appoint-list1 ul {
+    padding:29px 0;
+    height:80px; width:999px;
+    border:1px solid #eee; border-left:0;
+}
+.appoint-list1 ul li {
+    float:left;
+    width:332px; height:80px;
+    text-align:center;
+    border-right:1px solid #eee;
+}
+.appoint-list1 ul li.bor0 { border-right:0; }
+.appoint-list1 ul li p { 
+    padding:10px 0 15px;
+    font-size:16px;
+    color:#333;
+}
+.pay-state1 { padding-left:30px; }

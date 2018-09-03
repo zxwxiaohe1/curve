@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.w1110 img { display:block; }
+.mt120 { margin-top:120px; }
+.w850 { width:850px; }
+.w1110 { width:1110px; }
+.bgf0 { background-color:#f0f0f0; }
+.bgf4 { background-color:#f4f4f4; }
+.f40 { font-size:40px; }
+.f28 { font-size:28px; }
+.pt60 { padding-top:60px; }
+
+.g-ft3 {
+    margin-top:120px;
+}
+
+/* banner */
+.ban1 {
+    height: 400px;
+    background: url('../../images/activity/hefei-end/banner.jpg') no-repeat top center;
+}
+
+.w850 .arrow-bottom {
+    bottom:-40px; left:50%;
+    margin-left:-20px;
+    border-width:20px;
+    border-top-color:#f0f0f0;
+}
+
+.cont1 {
+    height:290px;
+    background:url(../../images/activity/hefei-end/2.jpg) no-repeat;
+}
+
+.cont1-nr {
+    padding:40px 60px;
+    width:440px;
+}

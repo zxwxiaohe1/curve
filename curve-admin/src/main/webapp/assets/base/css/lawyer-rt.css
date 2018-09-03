@@ -1,0 +1,299 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*图标*/
+.ico-hp {
+    display: inline-block;
+    width: 24px; height: 24px;
+    background: url(../images/activity/lawyer-rt/ico-hp.png) no-repeat;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.i-hp1 { background-position: 0 0; }
+.i-hp2 { background-position: -30px 0; }
+.i-hp3 { background-position: -60px 0; }
+.i-hp4 { background-position: -90px 0; }
+
+/*banner-bar*/
+.banner-bar {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+.banner-text {
+    position: absolute;
+    left: 50%; top: 130px;
+    width: 435px;
+    margin-left: 150px;
+    z-index: 2;
+}
+.banner-text h2 {
+    padding-bottom: 14px; margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    font-size: 36px; line-height: 50px; 
+    font-weight: bold; color: #333;
+}
+.banner-text h2 strong {
+    display: block;
+    height: 64px;
+    font-size: 60px; line-height: 64px;margin-bottom: 10px;
+}
+.banner-bar a {
+    float: left;
+    padding: 0;
+    width: 240px; text-align: center;
+    font-size: 14px; line-height: 38px; color: #fff;
+}
+.banner {
+    height: 600px;
+}
+.banner li {
+    position: relative;
+    width: 100%; height: 600px;
+}
+.banner li img {
+    position: absolute;
+    left: 50%; top: 0; margin-left: -960px;
+    width:1920px; height: 600px;
+}
+
+/*标题*/
+.rt-tit { background-color: #fff; }
+.rt-tit-fixed {
+    position: fixed;
+    width: 100%;left: 0;top: 0; right: 0;
+    z-index: 1000;
+}
+.rt-t-nr { 
+    width: 394px;
+    padding: 30px 0; 
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+.rt-tit h3 {
+    height: 40px; line-height: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    font-size: 36px; font-weight: bold;
+}
+.rt-tit p {
+    margin-top: 7px;
+    font-size: 16px;
+}
+
+/*tr-k1*/
+.tr-k1, .tr-k2, .tr-k3, .tr-k4, .tr-k5 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.tr-k1 {
+    height: 600px;
+    background-image: url(../images/activity/lawyer-rt/k1.jpg);
+}
+.tr-k2 {
+    height: 598px;
+    background-image: url(../images/activity/lawyer-rt/k2.jpg);
+}
+.tr-k3 {
+    height: 600px;
+    background-image: url(../images/activity/lawyer-rt/k3.jpg);
+}
+.tr-k4 {
+    height: 600px;
+    background-image: url(../images/activity/lawyer-rt/k4.jpg);
+}
+.tr-k5 {
+    height: 601px;
+    background-image: url(../images/activity/lawyer-rt/k5.jpg);
+}
+/*tr-shuju*/
+.tr-shuju h3 {
+    height: 102px;
+    color: #fff;
+}
+.tr-shuju h3 strong {
+    font-size: 60px; line-height: 62px;
+    font-weight: normal;
+}
+.tr-shuju h3 strong b {
+    font-size: 100px; line-height: 102px;
+    font-weight: normal;
+}
+.tr-shuju h3 span {
+    width: 24px; height: 40px; padding: 3px 0;
+    background-color: #333;
+    font-size: 14px; text-align: center;
+    margin-top: 46px;
+}
+.tr-shuju h3.h62 {
+    height: 62px;
+}
+.tr-shuju h3.h62 span { margin-top: 16px; *margin-top: 8px; }
+.tr-shuju p {
+    font-size: 16px; line-height: 28px;
+    color: #fff;
+    margin-top: 10px;
+}
+    /**/
+.tr-k1 .tr-shuju, .tr-k2 .tr-shuju, .tr-k3 .tr-shuju, .tr-k4 .tr-shuju, .tr-k5 .tr-shuju {
+    position: absolute;
+    left: 50%; 
+}
+.tr-k1 .tr-shuju {
+    top: 230px;
+    margin-left: -500px;
+}
+.tr-k2 .tr-shuju {
+    top: 250px;
+    margin-left: 125px;
+}
+.tr-k3 .tr-shuju {
+    width: 240px;
+    top: 245px;
+    margin-left: -450px;
+}
+.tr-k4 .tr-shuju {
+    top: 255px;
+    margin-left: 160px;
+}
+
+/*注册流程*/
+.rt-step {
+    background-color: #333;
+    padding: 60px 0;
+}
+.step-bg {
+    height: 90px;
+    background: url(../images/activity/lawyer-rt/step.png) no-repeat top center;
+}
+.step-text {
+    padding: 20px 0 60px;
+    border-bottom: 1px solid #2b2b2b;
+}
+.step-text li {
+    float: left; 
+    width: 400px; text-align: center;
+    font-size: 16px; color: #999;
+}
+.step-text li b {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+    /*fanpai*/
+.fanpai {
+    height: 120px; line-height: 120px;
+    padding: 60px 0;
+    font-size: 18px; font-weight: bold; color: #fff;
+    text-align: center; vertical-align: middle;
+}
+.fanpai b, .fanpai span {
+    display: inline-block;
+}
+.fanpai b {
+    position: relative;
+    top: -20px;
+}
+.fanpai span {
+    width: 72px; height: 120px;
+    background: url(../images/activity/lawyer-rt/ico1.png) no-repeat;
+    font-size: 72px;  text-align: center;
+    margin-right: 5px;
+    *zoom: 1;
+}
+
+.btn-oe2 {
+    display: inline-block;
+    padding: 0;
+    width: 380px; height: 70px; line-height: 70px;
+    border-bottom: 4px solid #c94714; border-radius: 5px;
+    background-color: #f36f20;
+    font-size: 24px; font-weight: bold; color: #fff;
+}
+.btn-oe2:hover {
+    background-color: #ea5802;
+    border-color: #c94714;
+    color: #fff;
+}
+
+/*伙伴心声*/
+.bort1 { border-top: 1px solid #eee; }
+.borr1 { border-right: 1px dashed #eee; }
+.lawyer-say {
+    float: left;
+    width: 50%;
+}
+.lr-sy {
+    padding: 40px 0;
+    border-bottom: 1px dashed #eee;
+}
+.pt0 { padding-top: 0 !important; }
+.lr-sy-l {
+    float: left;
+    width: 80px;
+}
+.lr-sy-l img {
+    display: block; height: 80px;
+    border-radius: 50%;
+}
+.lr-sy-l b {
+    display: block;
+    height: 20px; overflow: hidden;
+    border-bottom: 1px solid #eee;
+    font-size: 14px; text-align: center;
+    margin-top: 16px; padding-bottom: 6px;
+}
+.lr-sy-l p {
+    font-size: 12px; color: #bbb;
+    text-align: center;
+    margin-top: 4px;
+}
+.lr-sy-l p span { margin-right: 5px; }
+.lr-sy-r {
+    padding-left: 120px;
+}
+.lr-sy-r1 { 
+    height: 30px; line-height: 30px;
+    font-size: 24px; color: #333;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.lr-sy-r1 span {
+    float: left;
+    width: 60px;  padding-right: 3px;
+    height: 24px; line-height: 24px;
+    background: url(../images/activity/lawyer-rt/ico1.png) no-repeat;
+    font-size: 14px; color: #fff; text-align: center;
+    margin: 3px 10px 0 0;
+}
+.lr-sy-r1 span.lr-sy-tag1 { background-position: -80px 0; }
+.lr-sy-r1 span.lr-sy-tag2 { background-position: -80px -30px; }
+.lr-sy-r1 span.lr-sy-tag3 { background-position: -80px -60px; }
+.lr-sy-r2 {
+    height: 30px;
+    font-size: 14px; color: #666;
+    margin: 25px 0 35px;
+}
+.lr-sy-r3 { 
+    height: 24px; line-height: 24px;
+    color: #bbb;
+}
+.lr-sy-r3 .ico-hp {
+    float: left; margin-right: 10px;
+}
+
+/* 32share */
+.lar-share{ border-top:1px solid #dcdcdc; width:200px; padding:20px 0;}
+.lar-share .bdshare-button-style0-32 a { 
+    width:36px!important; line-height:36px!important; height:36px!important; 
+    background: url(../images/special/ico-spe.png) no-repeat!important;  
+    margin:0 17px 0 0!important;
+}
+.lar-share .bdshare-button-style0-32 .bds_sqq { background-position: 0 -144px !important; }
+.lar-share .bdshare-button-style0-32 .bds_weixin { background-position: -48px -144px!important; }
+.lar-share .bdshare-button-style0-32 .bds_tsina { background-position: -95px -144px !important; }
+.lar-share .bdshare-button-style0-32 .bds_tqq { background-position: -140px -144px !important; }
+.lar-share .bdshare-button-style0-32 .bds_tqq{ margin-right:0!important; }
